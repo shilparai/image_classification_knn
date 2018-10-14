@@ -29,12 +29,12 @@ def getListOfFiles(dirName):
 
     return allFiles
 
-imagePaths = getListOfFiles("./datasets/")
+imagePaths = getListOfFiles("./datasets/") ## Folder structure: datasets --> sub-folders with labels name
 #print(imagePaths)
 
 data = []
 lables = []
-c = 0
+c = 0 ## to see the progress
 for image in imagePaths:
 
     lable = os.path.split(os.path.split(image)[0])[1]
