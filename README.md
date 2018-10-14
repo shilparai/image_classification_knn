@@ -41,6 +41,6 @@ Some useful links
 1. Download the dataset and save it in the folder "datasets"
 2. Name of sub-folders in parent folder "datasets" represnt lables (class). In our case, it's "Dog", and "Cat"
 3. Clone the repository
-4. Run knn.py using cmd/pycharm/jupyter notebook
+4. Run knn_model.py using cmd/pycharm/jupyter notebook
 
 Happy Learning !!!
